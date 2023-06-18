@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+}
+.container {
+    display:block;
+    block-size: 0cap;
+    align-items:center;
+    justify-content:center;
+    height: 100vh;
+    background-color:rgb(137, 137, 137);
+  }
+  h1 {
+    margin-bottom: 1rem;
+    -webkit-text-fill-color:black;
+    font-size: larger;
+  }
+  input {
+    margin-right: 0.5rem;
+  }
+  output {
+    margin-top: 1rem;
+  }
+  label {
+    margin-right: 0.5rem;
+  }
+  button {
+    margin-top: 1rem;
+  }
+  
