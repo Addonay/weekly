@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tax Generator</title>
+</head>
+<body>
+    <H1>Tax Calculator</H1>
+
+    <form action="insert basic salary">
+        <label for="Salary"> Basic salary</label>
+        <input type="number" id="salary" name="Basic Salary" required >
+
+    </form>
+    <form action="insert benfits">
+        <label for="Benefits">Benefits</label>
+        <input type="number" id="benefits" name="Benefits" required>
+
+    </form>
+    <div>
+        <Button onclick="calculateNetPay()">CALCULATE</Button>
+    </div>
+
+    <div id="Payeoutput"></div>
+    <div id="NSSFoutput"></div>
+    <div id="NHIFoutput"></div>
+    <div id="Netsalary"></div>
+
+    
+    <script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(130, 130, 130);
+    display: relative;
+    text-align: center;
+    padding-top: 350px;
+}
+
+form{
+    padding: 20px;
+    
+}
+
+button{
+    background-color: bisque;
+    padding: 10px 20px;
+}
